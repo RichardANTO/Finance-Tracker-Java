@@ -57,9 +57,8 @@ Follow these steps to get the project running on your local machine:
 ---
 
 ## 📸 Screenshots
-<img width="1438" height="785" alt="Screenshot 2026-01-11 230951" src="https://github.com/user-attachments/assets/9c6cefa7-38ff-43b7-a4b8-e263065543f4" />
-
-
+<img width="1440" height="787" alt="Screenshot 2026-01-11 230927" src="https://github.com/user-attachments/assets/d9107103-7f81-4649-95f3-710fbe0a1cc9" />
+<img width="1438" height="785" alt="Screenshot 2026-01-11 230951" src="https://github.com/user-attachments/assets/ccdd9dd8-8e03-419a-925c-41804990dfd8" />
 
 ---
 
