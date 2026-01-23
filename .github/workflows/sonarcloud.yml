@@ -23,7 +23,7 @@ jobs:
           distribution: "temurin"
           java-version: "21"
 
-      # Step 3: Run SonarCloud scan
+      # Step 3: Run SonarCloud scan with debug
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         env:
@@ -33,3 +33,4 @@ jobs:
           args: >
             -Dsonar.organization=richardanto
             -Dsonar.projectKey=RichardANTO_Finance-Tracker-Java
+            -X
