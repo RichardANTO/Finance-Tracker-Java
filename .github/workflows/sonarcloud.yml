@@ -10,17 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout your code
       - name: Checkout source
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # Step 2: Set up Java
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
           java-version: "21"
 
+      # Step 3: Run SonarCloud scan
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         env:
@@ -28,5 +31,5 @@ jobs:
         with:
           projectBaseDir: PersonalFinanceTracker
           args: >
-            -Dsonar.organization=YOUR_ORG_KEY
-            -Dsonar.projectKey=YOUR_PROJECT_KEY
+            -Dsonar.organization=richardanto
+            -Dsonar.projectKey=RichardANTO_Finance-Tracker-Java
